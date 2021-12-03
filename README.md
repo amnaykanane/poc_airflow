@@ -10,7 +10,7 @@
 *T1 et T2 sont effectuées en parallèle
 
 ## Lancer l'application
-docker-compose -f docker-compose.yaml up -d
+``docker-compose -f docker-compose.yaml up -d``
 
 ## WebServer
 http://localhost:8080/ / username & password : airflow
