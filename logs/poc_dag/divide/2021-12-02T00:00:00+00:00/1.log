@@ -1,0 +1,48 @@
+[2021-12-03 11:39:22,838] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: poc_dag.divide scheduled__2021-12-02T00:00:00+00:00 [queued]>
+[2021-12-03 11:39:22,850] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: poc_dag.divide scheduled__2021-12-02T00:00:00+00:00 [queued]>
+[2021-12-03 11:39:22,850] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-03 11:39:22,851] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2021-12-03 11:39:22,851] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-03 11:39:22,865] {taskinstance.py:1262} INFO - Executing <Task(PythonOperator): divide> on 2021-12-02 00:00:00+00:00
+[2021-12-03 11:39:22,871] {standard_task_runner.py:52} INFO - Started process 127 to run task
+[2021-12-03 11:39:22,874] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'poc_dag', 'divide', 'scheduled__2021-12-02T00:00:00+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/poc_dag.py', '--cfg-path', '/tmp/tmpy1g8j4k0', '--error-file', '/tmp/tmpxmj_lkrq']
+[2021-12-03 11:39:22,875] {standard_task_runner.py:77} INFO - Job 15: Subtask divide
+[2021-12-03 11:39:22,938] {logging_mixin.py:109} INFO - Running <TaskInstance: poc_dag.divide scheduled__2021-12-02T00:00:00+00:00 [running]> on host f4a422e3c3b1
+[2021-12-03 11:39:22,991] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=poc_dag
+AIRFLOW_CTX_TASK_ID=divide
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-02T00:00:00+00:00
+[2021-12-03 11:39:22,992] {logging_mixin.py:109} INFO - dividing
+[2021-12-03 11:39:23,001] {logging_mixin.py:109} INFO - 2.0
+[2021-12-03 11:39:23,002] {python.py:152} INFO - Done. Returned value was: None
+[2021-12-03 11:39:23,016] {taskinstance.py:1280} INFO - Marking task as SUCCESS. dag_id=poc_dag, task_id=divide, execution_date=20211202T000000, start_date=20211203T113922, end_date=20211203T113923
+[2021-12-03 11:39:23,046] {local_task_job.py:154} INFO - Task exited with return code 0
+[2021-12-03 11:39:23,077] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-12-03 11:43:15,669] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: poc_dag.divide scheduled__2021-12-02T00:00:00+00:00 [queued]>
+[2021-12-03 11:43:15,683] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: poc_dag.divide scheduled__2021-12-02T00:00:00+00:00 [queued]>
+[2021-12-03 11:43:15,684] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-03 11:43:15,684] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2021-12-03 11:43:15,684] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-03 11:43:15,697] {taskinstance.py:1262} INFO - Executing <Task(PythonOperator): divide> on 2021-12-02 00:00:00+00:00
+[2021-12-03 11:43:15,704] {standard_task_runner.py:52} INFO - Started process 153 to run task
+[2021-12-03 11:43:15,707] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'poc_dag', 'divide', 'scheduled__2021-12-02T00:00:00+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/poc_dag.py', '--cfg-path', '/tmp/tmpuajwvyqo', '--error-file', '/tmp/tmp9nvlp9lz']
+[2021-12-03 11:43:15,708] {standard_task_runner.py:77} INFO - Job 22: Subtask divide
+[2021-12-03 11:43:15,747] {logging_mixin.py:109} INFO - Running <TaskInstance: poc_dag.divide scheduled__2021-12-02T00:00:00+00:00 [running]> on host f4a422e3c3b1
+[2021-12-03 11:43:15,792] {taskinstance.py:1429} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=poc_dag
+AIRFLOW_CTX_TASK_ID=divide
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-02T00:00:00+00:00
+[2021-12-03 11:43:15,793] {logging_mixin.py:109} INFO - dividing
+[2021-12-03 11:43:15,802] {logging_mixin.py:109} INFO - 2.0
+[2021-12-03 11:43:15,803] {python.py:152} INFO - Done. Returned value was: None
+[2021-12-03 11:43:15,815] {taskinstance.py:1280} INFO - Marking task as SUCCESS. dag_id=poc_dag, task_id=divide, execution_date=20211202T000000, start_date=20211203T114315, end_date=20211203T114315
+[2021-12-03 11:43:15,838] {local_task_job.py:154} INFO - Task exited with return code 0
+[2021-12-03 11:43:15,869] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
